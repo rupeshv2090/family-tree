@@ -1,0 +1,10 @@
+[project]
+name = "backend-fastapi-app"
+version = "0.1.0"
+description = "Family tree generator"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "fastapi[standard]>=0.136.1",
+    "pydantic>=2.13.4",
+]

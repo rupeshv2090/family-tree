@@ -1,0 +1,23 @@
+{
+  "typeCheckingMode": "strict",
+  "pythonVersion": "3.14",
+  "include": ["app", "tests"],
+  "exclude": [".venv", "**/__pycache__", "**/.pytest_cache", "**/.mypy_cache"],
+  "reportMissingTypeStubs": true,
+  "reportUnknownParameterType": true,
+  "reportUnknownArgumentType": true,
+  "reportUnknownMemberType": true,
+  "reportUnknownVariableType": true,
+  "reportUnknownLambdaType": true,
+  "reportAny": true,
+  "reportExplicitAny": true,
+  "reportMissingParameterType": true,
+  "reportMissingTypeArgument": true,
+  "reportMissingReturnType": true,
+  "reportUntypedFunctionDecorator": true,
+  "reportUntypedBaseClass": true,
+  "reportUntypedNamedTuple": true,
+  "reportPrivateUsage": false,
+  "reportUnusedImport": true,
+  "reportUnusedVariable": true
+}
